@@ -9,11 +9,9 @@ class ResponseView(View):
 
     def get(self, request):
         if request.GET.get('dominio'):
-            url = 'http://'+request.GET['dominio']
-            destination = url
+            destination = 'http://'+request.GET['dominio']
             if request.GET.get('ip'):
-                ip = 'http://'+request.GET['ip']
-                destination = ip
+                destination = 'http://'+request.GET['ip']
             before = time.time()
             r = requests.get(destination)
             responseTime = round((time.time() - before) * 1000)
