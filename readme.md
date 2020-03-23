@@ -1,7 +1,7 @@
-# **Get TCDN**
-**Verificación Status Code y Ping sobre consultas HTTP**
+# **Get TCDN** 🚀
+**Verificación de Status Code y tiempo de respuesta en consultas HTTP**
 
-* App solicitada por TransparentCDN para vacante Python Development
+* App solicitada por TransparentCDN para vacante Python Developer
 
 ## Requisitos de instalación 🔧
 
