@@ -10,12 +10,12 @@
 source <nombre_entorno_virtual>/bin/activate
 ```
 
-* **Instalar Django:**
+* **Instalar Django**
 ```
 pip install django
 ```
 
-* **Instalar "requirements":**
+* **Instalar "requirements"**
 ```
 pip install -r requirements.txt
 ```
@@ -23,6 +23,16 @@ pip install -r requirements.txt
 ```
 python manage.py runserver
 ```
+
+* **Abrir con el navegador el LocalHost para entrar a la Home**
+```
+http://127.0.0.1:8000
+```
+* Endpoint para consultar dominio ----> http://127.0.0.1:8000/?dominio=www.google.com
+
+* Se puede implementar otro parámetro IP a continuación del dominio para que en lugar de usar la resolución DNS del sistema, haga la petición a esa web contra una IP determinada.
+     Ejemplo ---> http://127.0.0.1:8000/?dominio=www.google.com&ip=216.58.213.132
+
 
 ## Construido con 🛠️
 
